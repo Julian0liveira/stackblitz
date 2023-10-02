@@ -4,7 +4,7 @@ export default function Formulario(){
   return(
     <div>
       <form>
-        <label> htmlfor='tarefa' </label>
+        <label> htmlfor="tarefa" </label>
       </form>
     </div>
   )
