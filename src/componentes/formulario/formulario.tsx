@@ -26,7 +26,7 @@ export default function Formulario() {
             name="tempo"
             id="tempo"
             min="00:00:00"
-            max="00:00:00"
+            max="23:59:99"
           />
         </div>
       </form>
