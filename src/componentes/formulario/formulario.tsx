@@ -1,5 +1,5 @@
 import React from 'react';
-import Botao from './componentes/botao/botao'
+import Botao from '../componentes/botao/botao';
 
 export default function Formulario() {
   return (
@@ -30,10 +30,10 @@ export default function Formulario() {
             max="23:59:99"
           />
         </div>
+        <div>
+          <Botao />
+        </div>
       </form>
-      <div>
-
-      </div>
     </div>
   );
 }
