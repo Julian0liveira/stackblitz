@@ -1,5 +1,5 @@
 import React from 'react';
-import Botao from './botao';
+import Botao from '../componentes/botao/botao';
 
 export default function Formulario() {
   return (
