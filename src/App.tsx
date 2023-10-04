@@ -6,14 +6,15 @@ import './style.css';
 export default function App() {
   return (
     <>
+    <div className="formulario">
     <form>
-    <div className="cadastroaluno">
+    <div>
       <h1> Cadastro de aluno </h1>
     </div>
-    <div className="nome">
+    <div>
       <label htmlFor="nome"> Nome completo </label>
     </div>
-    <div className="nome">      
+    <div>      
       <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
     </div>
     <div>
@@ -46,6 +47,7 @@ export default function App() {
       <Botao/>
     </div>
   </form>
+  </div>
     </>
   );
 }
