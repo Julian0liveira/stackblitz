@@ -1,7 +1,7 @@
 import React from 'react';
 import Botao from './botao';
 
-export default function Formulario() {
+/*export default function Formulario() {
   return (
     <div>
       <form>
@@ -36,4 +36,20 @@ export default function Formulario() {
       </form>
     </div>
   );
+}*/
+
+export default function Formulario(){
+  return(
+    <>
+    <div>
+      <label htmlFor=""> Nome completo </label>      
+    </div>
+    <div>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" />
+    </div>
+    <div>
+      <Botao/>
+    </div>
+    </>
+  )
 }
