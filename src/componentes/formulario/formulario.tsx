@@ -45,11 +45,17 @@ export default function Formulario(){
       <label htmlFor=""> Nome completo </label>      
     </div>
     <div>
-      <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" />
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
+    </div>
+    <div>
+      <label htmlFor=""> Data de nascimento </label>
+    </div>
+    <div>
+    <input type="date" name="data" id="datanascimento" placeholder="Digite sua data de nascimento" required />
     </div>
     <div>
       <Botao/>
     </div>
-    </>
+   </> 
   )
 }
