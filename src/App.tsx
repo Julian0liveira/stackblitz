@@ -13,7 +13,7 @@ export default function App() {
       <h1 className="cadaluno"> Cadastro de aluno </h1>
     </div>
     </section>
-    <section className="section">
+    <section>
     <div>
       <label htmlFor="nome"> Nome completo </label>
     </div>
