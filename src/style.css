@@ -16,6 +16,6 @@ h1 {
 }
 
 .formulario{
-  position: fixed;
+  align-items: center;
   text-align: center;
 }
