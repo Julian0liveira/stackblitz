@@ -20,7 +20,7 @@ h1 {
   flex-direction: column;
   background-color: #fff;
   border-radius: 7px;
-  padding: 40px;
+  padding: 30px;
   box-shadow: 10px 10px 40px rgba(221, 42, 42, 0);
   gap: 5px
 }
