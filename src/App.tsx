@@ -16,22 +16,24 @@ export default function App() {
     <div>      
       <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
     </div>
-      <label htmlFor=""> Data de nascimento </label>
-      <input type="date" name="data" id="datanascimento" placeholder="Digite sua data de nascimento" required />
     <div>
-      <label htmlFor=""> Genero </label>
+      <label htmlFor=""> Data de nascimento </label>
     </div>
     <div>
+      <input type="date" name="data" id="datanascimento" placeholder="Digite sua data de nascimento" required />
+    </div>
+    <div>
+      <label htmlFor=""> Genero </label>
       <label>
       <input type="radio" name="genero" id="genero" value="masculino" checked/>Masculino
       </label>
-    </div>
-    <div>
       <label>
       <input type="radio" name="genero" id="genero" value="feminino"/>Feminino
       </label>
     </div>
+    <div>
       <Botao/>
+    </div>
   </form>
     </>
   );
