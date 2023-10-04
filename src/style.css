@@ -7,7 +7,7 @@ body {
   padding: 1rem;
   font-family: system-ui, sans-serif;
   color: #999999;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 h1 {
