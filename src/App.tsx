@@ -13,12 +13,14 @@ export default function App() {
       <h1 className="cadaluno"> Cadastro de aluno </h1>
     </div>
     </section>
+    <section className="section">
     <div>
       <label htmlFor="nome"> Nome completo </label>
     </div>
     <div>      
       <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
     </div>
+    </section>
     <div>
       <label htmlFor="datanascimento"> Data de nascimento </label>
     </div>
