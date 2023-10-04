@@ -10,7 +10,7 @@ export default function App() {
     <form className="caixaform">
       <section className="section">
     <div>
-      <h1> Cadastro de aluno </h1>
+      <h1 className="cadaluno"> Cadastro de aluno </h1>
     </div>
     </section>
     <div>
