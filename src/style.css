@@ -38,6 +38,7 @@ h1 {
 }
 
 .section{
-  border-color: 1px #480ca8;
+  border-radius: 2px;
+  border-color: #480ca8;
   color: #480ca8;
 }
