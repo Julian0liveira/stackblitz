@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
     <form>
-    <div>
+    <div className="cadastroaluno">
       <h1> Cadastro de aluno </h1>
     </div>
     <div>
