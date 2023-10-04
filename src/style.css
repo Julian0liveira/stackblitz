@@ -30,7 +30,7 @@ h1 {
 .caixaform{
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color:white;
   border-radius: 7px;
   padding: 40px;
   box-shadow: 10px 10px 40px;
