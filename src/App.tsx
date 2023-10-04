@@ -8,7 +8,7 @@ export default function App() {
     <>
     <form>
     <div>
-      <h1 style="color:red;" > Cadastro de aluno </h1>
+      <h1> Cadastro de aluno </h1>
     </div>
     <div>
       <label htmlFor="nome"> Nome completo </label>
