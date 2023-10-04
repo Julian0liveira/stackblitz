@@ -10,10 +10,10 @@ export default function App() {
     <div className="cadastroaluno">
       <h1> Cadastro de aluno </h1>
     </div>
-    <div>
+    <div className="nome">
       <label htmlFor="nome"> Nome completo </label>
     </div>
-    <div>      
+    <div className="nome">      
       <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
     </div>
     <div>
