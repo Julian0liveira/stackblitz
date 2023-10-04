@@ -32,6 +32,12 @@ export default function App() {
       </label>
     </div>
     <div>
+      <label htmlFor=""> Nome da mãe </label>
+    </div>
+    <div>
+      <input type="text" name="nomemae" id="nomemae" placeholder="Digite o nome de sua mãe" />
+    </div>
+    <div>
       <Botao/>
     </div>
   </form>
