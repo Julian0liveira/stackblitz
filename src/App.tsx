@@ -8,7 +8,7 @@ export default function App() {
     <>
     <div className="formulario">
     <form className="caixaform">
-      <section>
+      <section className="section">
     <div>
       <h1> Cadastro de aluno </h1>
     </div>
