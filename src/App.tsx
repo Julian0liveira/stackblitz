@@ -38,6 +38,12 @@ export default function App() {
       <input type="text" name="nomemae" id="nomemae" placeholder="Digite o nome de sua mãe" />
     </div>
     <div>
+      <label htmlFor=""> Nome do pai </label>
+    </div>
+    <div>
+      <input type="text" name="nomepai" id="nomepai" placeholder="Digite o nome de seu pai" />
+    </div>
+    <div>
       <Botao/>
     </div>
   </form>
