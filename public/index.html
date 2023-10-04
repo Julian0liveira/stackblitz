@@ -7,6 +7,24 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="App"></div>
+    <form>
+      <h1> Cadastro de aluno </h1>
+    <br>
+      <label htmlFor=""> Nome completo </label>      
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
+    <br>
+      <label htmlFor=""> Data de nascimento </label>
+      <input type="date" name="data" id="datanascimento" placeholder="Digite sua data de nascimento" required />
+    <br>
+      <label htmlFor=""> Genero </label>
+      <label>
+      <input type="radio" name="genero" id="genero" value="masculino" checked>Masculino
+      </label>
+      <label>
+        <input type="radio" name="genero" id="genero" value="feminino">Feminino
+      </label>
+      <Botao/>
+  </form>
+    <!--<div id="App"></div>-->
   </body>
 </html>
