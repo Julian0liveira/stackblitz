@@ -11,7 +11,9 @@ export default function App() {
       <h1> Cadastro de aluno </h1>
     </div>
     <div>
-      <label htmlFor=""> Nome completo </label>      
+      <label htmlFor=""> Nome completo </label>
+    </div>
+    <div>      
       <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required/>
     </div>
       <label htmlFor=""> Data de nascimento </label>
