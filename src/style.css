@@ -39,7 +39,9 @@ h1 {
 
 .section{
   border-style: ridge;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #480ca8;
+  margin-left: 10px;
+  margin-right: 10px;
   color: #480ca8;
 }
