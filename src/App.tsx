@@ -23,13 +23,12 @@ export default function App() {
       <input type="date" name="data" id="datanascimento" placeholder="Digite sua data de nascimento" required />
     </div>
     <div>
+      <select id="genero">
       <label htmlFor=""> Genero </label>
-      <label>
-      <input type="radio" name="genero" id="genero" value="masculino" checked/>Masculino
-      </label>
-      <label>
-      <input type="radio" name="genero" id="genero" value="feminino"/>Feminino
-      </label>
+      <option value="selecione" defaultChecked>Selecionar</option>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      </select>
     </div>
     <div>
       <label htmlFor=""> Nome da mãe </label>
