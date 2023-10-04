@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
     <div className="formulario">
-    <form>
+    <form className="caixaform">
     <div>
       <h1> Cadastro de aluno </h1>
     </div>
